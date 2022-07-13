@@ -161,11 +161,11 @@ uploadFile() {
               // get the player match
               this.playerName = this.response.data[0].class
               //get the payers probability
-              this.player1_prob = this.response.data[0].class_probability[0]
-              this.player2_prob = this.response.data[0].class_probability[1]
-              this.player3_prob = this.response.data[0].class_probability[2]
-              this.player4_prob = this.response.data[0].class_probability[3]
-              this.player5_prob = this.response.data[0].class_probability[4]        
+              this.player1_prob = " has a probability of : "+ this.response.data[0].class_probability[0]+ "%"
+              this.player2_prob = " has a probability of : "+ this.response.data[0].class_probability[1]+ "%"
+              this.player3_prob = " has a probability of : "+ this.response.data[0].class_probability[2]+ "%"
+              this.player4_prob = " has a probability of : "+ this.response.data[0].class_probability[3]+ "%"
+              this.player5_prob = " has a probability of : "+ this.response.data[0].class_probability[4]+ "%"       
 
            }
            else{
